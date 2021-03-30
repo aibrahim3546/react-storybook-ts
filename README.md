@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project is a boilerplate project for React with [https://www.typescriptlang.org/](TypeScript) and [https://storybook.js.org/](Storybook).
+This project is a boilerplate project for React with [TypeScript](https://www.typescriptlang.org/) and [Storybook](https://storybook.js.org/).
 
 ## Available Scripts
 
