@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This project is a boilerplate project for React with [https://www.typescriptlang.org/](TypeScript) and [https://storybook.js.org/](Storybook).
 
 ## Available Scripts
 
