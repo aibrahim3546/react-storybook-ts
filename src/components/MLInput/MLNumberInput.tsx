@@ -47,6 +47,9 @@ const StyledNumberInput = styled.input`
   }
 `;
 
+/**
+ * MLNumberInput UI properties
+ */
 const MLNumberInput: React.FC<MLNumberInputProps> = ({
   value = undefined,
   defaultValue = undefined,
