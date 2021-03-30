@@ -16,7 +16,10 @@ You will also see any lint errors in the console.
 
 ### `yarn run storybook`
 
-Runs storybook UI documentation. Can preview all the available components.
+Runs storybook UI documentation. Can preview all the available components.\
+Open [http://localhost:6006/?path=/docs/example-introduction--page](http://localhost:6006/?path=/docs/example-introduction--page) to view it in the browser.
+
+The page will reload if you make edits.
 
 ### `yarn test`
 
