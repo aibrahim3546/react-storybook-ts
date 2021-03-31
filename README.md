@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This project is a boilerplate project for React with [TypeScript](https://www.typescriptlang.org/) and [Storybook](https://storybook.js.org/).
 
+The storybook is published using [chromatic](https://www.chromatic.com/).
+
+UI Storybook docs: [https://6064178c15a3b00021f5bfca-zscpcyhvqk.chromatic.com/](https://6064178c15a3b00021f5bfca-zscpcyhvqk.chromatic.com/)
+
 ## Available Scripts
 
 In the project directory, you can run:
