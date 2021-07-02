@@ -41,7 +41,7 @@ const BUTTON_TEXT_COLOR = {
 };
 
 const ButtonDiv = styled.div<Pick<ButtonProps, 'size' | 'type' | 'backgroundColor'>>`
-  padding: 10px 20px;
+  padding: 10px 30px;
   text-align: center;
   background-color: ${(props) => (props.backgroundColor || BUTTON_BG_COLOR[props.type || 'primary'])};
   color: ${(props) => BUTTON_TEXT_COLOR[props.type || 'primary']};
