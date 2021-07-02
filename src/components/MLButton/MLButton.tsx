@@ -18,6 +18,10 @@ export interface ButtonProps {
    * Button action on click
    */
   onClick: () => void;
+  /**
+   * Button background color
+   */
+   backgroundColor?: string;
 };
 
 const BUTTON_BG_COLOR = {
@@ -36,10 +40,10 @@ const BUTTON_TEXT_COLOR = {
   secondary: '#000000',
 };
 
-const ButtonDiv = styled.div<Pick<ButtonProps, 'size' | 'type'>>`
+const ButtonDiv = styled.div<Pick<ButtonProps, 'size' | 'type' | 'backgroundColor'>>`
   padding: 10px 20px;
   text-align: center;
-  background-color: ${(props) => BUTTON_BG_COLOR[props.type || 'primary']};
+  background-color: ${(props) => (props.backgroundColor || BUTTON_BG_COLOR[props.type || 'primary'])};
   color: ${(props) => BUTTON_TEXT_COLOR[props.type || 'primary']};
   font-size: ${(props) => BUTTON_SIZE[props.size || 'medium']}px;
   border-radius: 5px;
@@ -62,6 +66,7 @@ const ButtonDiv = styled.div<Pick<ButtonProps, 'size' | 'type'>>`
 const MLButton: React.FC<ButtonProps> = ({
   size = 'medium',
   type = 'primary',
+  backgroundColor = '',
   label,
   ...props
 }) => {
@@ -69,6 +74,7 @@ const MLButton: React.FC<ButtonProps> = ({
     <ButtonDiv
       size={size}
       type={type}
+      backgroundColor={backgroundColor}
       {...props}
       onClick={props.onClick}
     >
