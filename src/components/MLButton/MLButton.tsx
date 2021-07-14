@@ -46,7 +46,7 @@ const ButtonDiv = styled.div<Pick<ButtonProps, 'size' | 'type' | 'backgroundColo
   background-color: ${(props) => (props.backgroundColor || BUTTON_BG_COLOR[props.type || 'primary'])};
   color: ${(props) => BUTTON_TEXT_COLOR[props.type || 'primary']};
   font-size: ${(props) => BUTTON_SIZE[props.size || 'medium']}px;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 1px solid ${(props) => BUTTON_TEXT_COLOR[props.type || 'primary']};
   animation: all 500ms;
   box-shadow: 0 3px 6px #00000029;
